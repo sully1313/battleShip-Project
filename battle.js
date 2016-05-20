@@ -75,15 +75,16 @@ function game(event) {
     ammo.innerHTML = "Ammo |   " + shots;
     points += 15;
     score.innerHTML = "Score |   " + points;
-
-    if (hitCount == 17) {
-      winCounter++;
-      wins.innerHTML = "Victories |   " + winCounter;
-      status.innerHTML = "Victory! CLick restart button to play again.";
-      restart();
-    }
+  } else if (hitCount == 17) {
+    winCounter++;
+    wins.innerHTML = "Victories |   " + winCounter;
+    status.innerHTML = "Victory! CLick restart button to play again.";
+    restart();
   } else if (board[row][col] > 1) {
     status.innerHTML = "Stop wasting your ammo! You already fired at this cell.";
+  } else if (shots == 0){
+    status.textContent = "You Lose! You're out of Ammo!";
+    restart(game);
   }
 }
 
