@@ -1,0 +1,144 @@
+@media screen and (min-width: 900px) {
+body {
+  background-image: url('http://odorumovie.com/rin/odoru/battleship/wallpaper/img/battleship_wall-04.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 900px;
+}
+header {
+  position: absolute;
+  top: 5px;
+  left: 750px;
+}
+header img {
+  width: 500px;
+  height: 200px;
+  opacity: .75;
+  border-collapse: collapse;
+}
+#board {
+	position:absolute;
+  top: 150px;
+  left: 750px;
+	margin:0 auto 2em auto;
+	width:500px;
+	height:500px;
+}
+
+#board div {
+	position:absolute;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	width:50px;
+	height:50px;
+  opacity: .5;
+  text-align: center;
+  font-size: 23px;
+}
+#restart {
+  height: 80px;
+  width: 240px;
+  position: absolute;
+  bottom: 120px;
+  left: 225px;
+  border-radius: 10px;
+  font-size: 2em;
+}
+button {
+  background-color: silver;
+}
+.boxes {
+  padding-top: 10px;
+}
+.stats {
+  position: absolute;
+  left: 150px;
+}
+p {
+  font-family: 3d, sans-serif;
+  font-size: 2em;
+  color: silver;
+  display: inline-block;
+  padding-right: 25px;
+}
+h2 {
+  font-family: 3d, sans-serif;
+  font-size: 2em;
+  color: silver;
+  position: absolute;
+  bottom: 250px;
+  left: 85px;
+}
+}
+@@media screen and (min-device-width: 534px) and (max-device-width: 899px) {
+  body {
+    background-image: url('http://odorumovie.com/rin/odoru/battleship/wallpaper/img/battleship_wall-04.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 899px;
+  }
+  header {
+    position: absolute;
+    top: 5px;
+    left: 750px;
+  }
+  header img {
+    width: 500px;
+    height: 200px;
+    opacity: .75;
+    border-collapse: collapse;
+  }
+  #board {
+  	position:absolute;
+    top: 150px;
+    left: 750px;
+  	margin:0 auto 2em auto;
+  	width:500px;
+  	height:500px;
+  }
+
+  #board div {
+  	position:absolute;
+  	box-sizing: border-box;
+  	border: 1px solid #ddd;
+  	width:50px;
+  	height:50px;
+    opacity: .5;
+    text-align: center;
+    font-size: 23px;
+  }
+  #restart {
+    height: 80px;
+    width: 240px;
+    position: absolute;
+    bottom: 100px;
+    left: 225px;
+    border-radius: 10px;
+    font-size: 2em;
+  }
+  button {
+    background-color: silver;
+  }
+  .boxes {
+    padding-top: 10px;
+  }
+  .stats {
+    position: absolute;
+    left: 150px;
+  }
+  p {
+    font-family: 3d, sans-serif;
+    font-size: 2em;
+    color: silver;
+    display: inline-block;
+    padding-right: 25px;
+  }
+  h2 {
+    font-family: 3d, sans-serif;
+    font-size: 2em;
+    color: silver;
+    position: absolute;
+    bottom: 300px;
+    left: 85px;
+  }
+}
