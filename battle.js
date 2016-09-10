@@ -96,7 +96,7 @@ function check(array) {
   var j = array.length;
   var i = array[array.length];
   shuffle(array);
-  while (i !== 0)
+
     if (array[j][i] == array[j][i + 1]) {
       if (array[j][i] == array[j][i - 1]) {
         if (array[j][i] == array[j - 1][i]) {
@@ -108,8 +108,12 @@ function check(array) {
         }
       }
     }
-  while (i == 0);
 }
+var newArray = array[0].map(function(col, i) {
+  return array.map(function(row) {
+    return row[i]
+    })
+  });
 
 function shuffle(array) {
   var currentIndex = array.length,
